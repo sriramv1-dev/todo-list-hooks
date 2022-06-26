@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TodoApp from "./todo-app/components/todo-app";
+import ContextApp from "./context-app/components/context-app";
+import ContextAppHooks from "./context-app-hooks/components/context-app";
+import ReducerApp from "./learn-reducer/components/reducer-app";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <ReducerApp />;
+  // return <TodoApp />;
+
+  // return <ContextApp />;
+  // return <ContextAppHooks />;
 }
 
 export default App;

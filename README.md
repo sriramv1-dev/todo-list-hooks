@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Project Description
+
+Todo-app: App to view, add, edit, toggle, delete todo items
+We used the hooks: useState, useContext, useEffect.
+
+context app which is class based.
+context app-hooks which is functional components based.
+learn-reducer: To understand useReducer hooks.
