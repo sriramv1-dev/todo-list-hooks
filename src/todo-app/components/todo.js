@@ -10,7 +10,7 @@ import { Delete as DeleteIcon, Edit as EditIcon } from "@material-ui/icons";
 import useToggle from "../custom-hooks/useToggle";
 import EditTodoForm from "./edit-todo-form";
 import { TodoDispatchContext } from "../contexts/todo-context";
-import { useContext } from "react";
+import { memo, useContext } from "react";
 
 const Todo = ({ id, task, completed }) => {
   const dispatch = useContext(TodoDispatchContext);
@@ -48,4 +48,4 @@ const Todo = ({ id, task, completed }) => {
   );
 };
 
-export default Todo;
+export default memo(Todo);
